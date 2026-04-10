@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from './Link';
 const navData = [
     {
         id: 1,
@@ -27,15 +28,26 @@ const navData = [
     }
 ];
 
-export default navData;
 const Navbar = () => {
     return (
         <nav>
 
+            <ul className='flex'>
+                {
+                    navData.map(route => <Link key={route.id} route={route}></Link>)
+                }
+            </ul>
+
+            {/* <ul className='flex'>
+                {
+                    navData.map(route => <li className='mr-10'>
+                        <a href={route.path}>{route.name}</a></li>
+                    )
+                }
+            </ul> */}
 
 
 
-            
             {/* <ul className='flex'>
                 <li className='mr-10'><a href="#">Home</a></li>
                 <li className='mr-10'><a href="#">About</a></li>
