@@ -4,6 +4,7 @@ import './App.css'
 import DasyuiNav from './component/DasyuiNav'
 import Navbar from './component/NAVBAR/Navbar'
 import PriceingOption from './component/priceingOption/PriceingOption'
+import PriceingCard from './component/priceingCard/PriceingCard'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <header>
         <Navbar></Navbar>
         <DasyuiNav></DasyuiNav>
+        
       </header>
 
       <main>
