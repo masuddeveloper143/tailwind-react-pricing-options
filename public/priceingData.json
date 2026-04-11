@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": 20,
+    "duration": "monthly",
+    "features": [
+      "Access to gym equipment",
+      "Locker facility",
+      "1 group class per week",
+      "Free WiFi"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": 40,
+    "duration": "monthly",
+    "features": [
+      "All Basic features",
+      "Unlimited group classes",
+      "Personal trainer (2 sessions/month)",
+      "Diet plan guidance",
+      "Access to sauna"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": 70,
+    "duration": "monthly",
+    "features": [
+      "All Standard features",
+      "Unlimited personal training",
+      "Custom workout plan",
+      "Nutrition consultation",
+      "24/7 gym access"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Annual Plan",
+    "price": 700,
+    "duration": "yearly",
+    "features": [
+      "All Premium features",
+      "2 months free",
+      "Priority support",
+      "Free gym merchandise"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Student Plan",
+    "price": 15,
+    "duration": "monthly",
+    "features": [
+      "Access to gym equipment",
+      "Limited time access (8am - 5pm)",
+      "2 group classes per week",
+      "Student discount applied"
+    ]
+  }
+]
