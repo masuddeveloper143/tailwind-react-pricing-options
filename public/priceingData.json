@@ -16,6 +16,7 @@
     "name": "Standard Plan",
     "price": 40,
     "duration": "monthly",
+    "popular": true,
     "features": [
       "All Basic features",
       "Unlimited group classes",
